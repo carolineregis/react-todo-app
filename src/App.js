@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTitle from './components/PageTitle';
+import AppHeader from './components/AppHeader';
 import style from './styles/modules/app.module.scss';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className="container">
       <PageTitle> TODO LIST </PageTitle>
       <div className={style.app__wrapper}>
-        {/* <AppHeader></AppHeader> */}
+        <AppHeader></AppHeader>
       </div>
     </div>
   );
