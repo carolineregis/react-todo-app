@@ -7,7 +7,7 @@ function App() {
     <div className="container">
       <PageTitle> TODO LIST </PageTitle>
       <div className={style.app__wrapper}>
-        <AppHeader></AppHeader>
+        {/* <AppHeader></AppHeader> */}
       </div>
     </div>
   );
